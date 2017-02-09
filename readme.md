@@ -20,8 +20,8 @@ Download a zipped file of all test files:
 
 # How to run the tests:
 1. Open terminal or command prompt
-1. Change directories to the bubbles-python-pytests location  
-`cd ~/bubbles-python-pytests` or `cd C:\Users\user\Desktop\bubbles-python-pytests`
+1. Change directories to the python-pytests location  
+`cd ~/python-pytests` or `cd C:\Users\user\Desktop\python-pytests`
 * To run all tests in the directory  
 `python -m pytest`
 * To run all tests in a specific test file  
@@ -55,7 +55,7 @@ There's a command line switch that allows running against other environments:
 ```
 =========================== test session starts ============================
 platform darwin -- Python 3.5.2, pytest-3.0.5, py-1.4.32, pluggy-0.4.0
-rootdir: /Users/sharris/bubbles-python-pytests, inifile: 
+rootdir: /Users/sharris/python-pytests, inifile: 
 collected 58 items 
 
 test_Advise_API.py ...........x...x.......x............x.....
@@ -65,7 +65,7 @@ test_Telemetry_API.py ............
 ================== 54 passed, 4 xfailed in 44.34 seconds ===================
 ```
 
-* You can see that 58 tests were collected out of all 3 test files in the bubbles-python-pytests directory
+* You can see that 58 tests were collected out of all 3 test files in the python-pytests directory
 * Each file shows its own results
 * A `.` represents a passed test
 * An `x` represents a test that was expected to fail (if you look at the tests in the code, you see a reason for each marked test)
@@ -75,7 +75,7 @@ test_Telemetry_API.py ............
 ```
 =========================== test session starts ============================
 platform darwin -- Python 3.5.2, pytest-3.0.5, py-1.4.32, pluggy-0.4.0
-rootdir: /Users/sharris/bubbles-python-pytests, inifile: 
+rootdir: /Users/sharris/python-pytests, inifile: 
 collected 58 items 
 
 test_Advise_API.py ...Ascending order: 0.03  0.04  0.06  0.07  0.08  0.09  0.095  0.105  0.1433333333  0.15  
@@ -104,7 +104,7 @@ test_Telemetry_API.py ............
 ```
 =========================== test session starts ============================
 platform darwin -- Python 3.5.2, pytest-3.0.5, py-1.4.32, pluggy-0.4.0
-rootdir: /Users/sharris/bubbles-python-pytests, inifile: 
+rootdir: /Users/sharris/python-pytests, inifile: 
 collected 58 items 
 
 test_Advise_API.py ...........x...x.......x............x.....
@@ -137,7 +137,7 @@ test_Telemetry_API.py:36: AssertionError
 ============================= test session starts ==============================
 platform darwin -- Python 3.5.2, pytest-3.0.5, py-1.4.32, pluggy-0.4.0 -- /usr/local/bin/python3.5
 cachedir: .cache
-rootdir: /Users/sharris/bubbles-python-pytests, inifile: 
+rootdir: /Users/sharris/python-pytests, inifile: 
 collected 12 items 
 
 test_Telemetry_API.py::test_1_get_instructor_cookie PASSED
